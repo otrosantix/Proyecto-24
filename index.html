@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Historias 24 horas</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="bar">
+<ul id="story-list" class="story-list">
+<li><button id="add" type="button" class="add" aria-label="Agregar historia">+</button></li>
+</ul>
+<input id="file" type="file" accept="image/*" hidden>
+</header>
+<div id="viewer" class="viewer" hidden>
+<div id="bars" class="bars"></div>
+<button id="close" type="button" class="close" aria-label="Cerrar historia">&times;</button>
+<img id="viewer-img" alt="Historia" draggable="false">
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
